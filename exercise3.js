@@ -33,6 +33,10 @@ function cekNama(nama){
   }
 }
 
+
+// input nama dan peran
+// format input output('peran' , 'nama')
+// berikut adalah hasil percobaan untuk beberapa input
 output('','Jon')
 output('Tabib','Faaz');
 output('Ksatria', 'Jaw');
