@@ -4,9 +4,10 @@ var peran;
 function output(peran, nama){
   if(peran === '' && nama !== ''){
    console.log('Halo ' + nama + ', Pilih peranmu untuk memulai game'); 
+  }else if(nama === ''){
+    cekNama(nama);
   }else{
    cekPeran(peran,nama);
-   cekNama(nama);
   }
 }
 "Halo Ksatria Nina, kamu dapat menyerang dengan senjatamu!"
@@ -41,4 +42,4 @@ output('','Jon')
 output('Tabib','Faaz');
 output('Ksatria', 'Jaw');
 output('Penyihir' , 'Rony');
-output('','');
+output('Penyihir', '');
