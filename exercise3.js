@@ -3,7 +3,7 @@ var peran;
 
 function output(peran, nama){
   if(peran === '' && nama !== ''){
-   console.log('Halo' + nama + ', Pilih peranmu untuk memulai game'); 
+   console.log('Halo ' + nama + ', Pilih peranmu untuk memulai game'); 
   }else{
    cekPeran(peran,nama);
    cekNama(nama);

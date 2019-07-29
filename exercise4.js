@@ -68,4 +68,4 @@ function output(tanggal,bulan,tahun){
 // Test program untuk beberapa input
 // output(124,15,2012);
 // output(12,7,2019);
-output(12,4,1000);
+output(12,4,2001);
