@@ -4,7 +4,7 @@ var tahun; // valid 1900 - 2200
 
 function fTanggal(tanggal){
   if (tanggal > 31 || tanggal < 1){
-    console.log('input tanggal invalid');
+    return false;
   }else {
     return tanggal;
   }
@@ -12,7 +12,7 @@ function fTanggal(tanggal){
 
 function fTahun(tahun){
   if (tahun < 1900 || tahun > 2200){
-    console.log('input tahun invalid');
+    return false;
   }else{
     return tahun;
   }
@@ -57,15 +57,21 @@ function getBulan(bulan){
     return 'Desember';
     break;
   default:
-    console.log('Input bulan Invalid');
+    return false;
   }
 }
 
 function output(tanggal,bulan,tahun){
-  console.log(fTanggal(tanggal) + ' ' + getBulan(bulan) + ' ' + fTahun(tahun));
-}
+  if (fTanggal(tanggal) === false || getBulan(bulan) === false || fTahun(tahun) === false){
+    console.log('Input invalid');
+  }else {
+    console.log(fTanggal(tanggal) + ' ' + getBulan(bulan) + ' ' + fTahun(tahun));
+  }
+}  
+  
+
 
 // Test program untuk beberapa input
-// output(124,15,2012);
-// output(12,7,2019);
-output(12,4,2001);
+output(124,15,2012);
+output(12,7,2019);
+output(12,4,2300);
