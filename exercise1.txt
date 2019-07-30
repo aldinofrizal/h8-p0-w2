@@ -1,39 +1,39 @@
 PSEUDOCODE
 
 1. Newton Second Law
-declare and set "m" to 600
-declare and set "a" to 2
-declare "F"
+declare and set m to 600
+declare and set a to 2
+declare F
 calculate F equal to m multiply a
 display F
 
 2. Tahun Kabisat
-declare 'tahun'
-IF "tahun mod 4 equal 0 and tahun mod 100 notEqual 0" or
-   "tahun mod 4 equal 0 and tahun mod 100 equal 0 and tahun mod 400 equal 0"
+declare 'ahun
+IF (tahun mod 4 equal 0 and tahun mod 100 notEqual 0) or
+   (tahun mod 4 equal 0 and tahun mod 100 equal 0 and tahun mod 400 equal 0)
 	tahun defined as kabisat
 ELSE
 	tahun defined as not kabisat
 
 	
 3. Laundry Day
-declare and set "bajuFoxie" to 20
-declare and set "mesinCuci" to 0
+declare and set bajuFoxie to 20
+declare and set mesinCuci to 0
 
-WHILE "mesinCuci lessEqual 20"
-DO "bajuFoxie minus 1 and mesinCuci plus 1"
+WHILE mesinCuci lessEqual 20
+DO bajuFoxie minus 1 and mesinCuci plus 1
 
-START "cuci baju"
+START cuci baju
 
 4. Periksa kuku
-declare and set "siswa" to 40
+declare and set siswa to 40
 
-WHILE "siswa notEqual to 0"
+WHILE siswa notEqual to 0
 	siswa minus 1
-	IF "Kuku siswa panjang"
-		"menghukum siswa"
+	IF Kuku siswa panjang
+		menghukum siswa
 	ELSE 
-		"memuji siswa"
+		memuji siswa
 
 
 
