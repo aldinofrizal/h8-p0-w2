@@ -30,6 +30,7 @@ declare and set 'siswa' to 40
 
 WHILE 'siswa' notEqual to 0
 	'siswa' minus 1
+	DO cek kuku siswa
 	IF Kuku siswa panjang
 		then do menghukum siswa
 	ELSE 
