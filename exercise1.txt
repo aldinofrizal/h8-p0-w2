@@ -31,10 +31,10 @@ declare and set 'siswa' to 40
 WHILE 'siswa' notEqual to 0
 	'siswa' minus 1
 	IF Kuku siswa panjang
-		menghukum siswa
+		then do menghukum siswa
 	ELSE 
-		memuji siswa
-
+		then do memuji siswa
+END WHILE
 
 
 
